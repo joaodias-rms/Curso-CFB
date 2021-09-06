@@ -1,10 +1,10 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 
-export default function Home() {
+export function Home() {
     return (
         <View>
-            <Text></Text>
+            <Text>Seja bem vindo</Text>
         </View>
     )
 }
