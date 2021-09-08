@@ -7,7 +7,7 @@ import {ButtonLogin} from '../../components/Button';
 export function Login() {
   return (
     <View style={styles.container}>
-      <Text styles={styles.title}>Welcome</Text>
+      <Text style={styles.title}>Welcome</Text>
       <TextIn example="Login" />
       <TextIn example="Password" contentSecure />
       <ButtonLogin color="#f05" title="Acessar" />
