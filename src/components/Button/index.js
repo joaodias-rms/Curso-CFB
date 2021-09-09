@@ -12,8 +12,6 @@ export function ButtonLogin(props) {
   }
 
   return (
-    <Button title={props.title} style={styles.container} color={props.color} onPress={handleLogin}>
-      <Text>{}</Text>
-    </Button>
+    <Button title={props.title} style={styles.container} color={props.color} onPress={handleLogin}/>
   );
 }
