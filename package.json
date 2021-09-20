@@ -10,7 +10,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/geolocation": "^2.0.2",
     "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/bottom-tabs": "^6.0.5",
     "@react-navigation/native": "^6.0.2",
     "@react-navigation/stack": "^6.0.7",
     "feather-icons": "^4.28.0",
@@ -18,12 +21,18 @@
     "jetifier": "^2.0.0",
     "jetify": "^1.0.2",
     "react": "17.0.2",
-    "react-native": "0.65.1",
+    "react-native": "^0.65.1",
     "react-native-gesture-handler": "^1.10.3",
-    "react-native-reanimated": "^2.2.0",
+    "react-native-permissions": "^3.0.5",
+    "react-native-reanimated": "2.3.0-alpha.3",
     "react-native-safe-area-context": "^3.3.2",
-    "react-native-screens": "^3.6.0",
-    "react-native-vector-icons": "^8.1.0"
+    "react-native-screens": "^3.7.2",
+    "react-native-svg": "^12.1.1",
+    "react-native-svg-transformer": "^0.14.3",
+    "react-native-swiper": "^1.6.0",
+    "react-native-vector-icons": "^8.1.0",
+    "reanimated": "^0.0.1-alpha",
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
