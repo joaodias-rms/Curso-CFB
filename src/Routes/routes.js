@@ -3,16 +3,16 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {Home} from '../Screens/Home/index';
 import {Login} from '../Screens/Login/index';
 import {SignUp} from '../Screens/SignUp';
-import {SplashScreen} from '../Screens/SplashScreen';
+import {Splash} from '../Screens/Splash';
 
 export function Navigation() {
   const Nav = createStackNavigator();
 
   return (
-    <Nav.Navigator initialRouteName="SplashScreen" headerShow={false}>
+    <Nav.Navigator initialRouteName="Splash">
       <Nav.Screen
-        name="SplashScreen"
-        component={SplashScreen}
+        name="Splash"
+        component={Splash}
         options={{title: 'Welcome'}}
       />
       <Nav.Screen 
